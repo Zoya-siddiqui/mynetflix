@@ -1,0 +1,1289 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.container {
+    min-height: auto;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+.containerf {
+    min-height: 100vh;  
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/893a42ad-6a39-43c2-bbc1-a951ec64ed6d/1d86e0ac-428c-4dfa-9810-5251dbf446f8/IN-en-20231002-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+    align-items: center;
+}
+a.logo {
+    color: red;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+}
+select {
+    width: 10vw;
+    height: 5vh;
+    font-size: 16px;
+    margin-right: 2rem;
+    border: 1px solid rgb(177, 176, 176);
+    background: transparent;
+    color: white;
+    border-radius: 4px;
+    padding: 6px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+a.signin {
+    background: red;
+    color: white;
+    padding: 10px 20px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.content {
+    /* display: block; */
+    margin: auto;
+    max-width: 80vw;
+    text-align: center;
+    position: relative;
+    top: 33vh;
+    color: white;
+    line-height: 3rem;
+}
+h3.ho {
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: auto;
+}
+p.po,p.pt {
+    font-size: 1.5rem;
+    word-spacing: 0.2rem;
+    font-weight: 500;
+}
+input.ea {
+    height: 8vh;
+    width: 29vw;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+}
+.ea::placeholder{
+    color: rgb(146, 142, 142);
+    font-size: 16px;
+}
+.ea:focus{
+    border:2px solid forestgreen;
+    outline: none;
+}
+.ea:blank {
+    border: 3px solid red;
+  }
+
+button.gets {
+    background: red;
+    padding: 11px 47px 13px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: wheat;
+    border-radius: 10px;
+    font-weight: 800;
+}
+.line {
+   
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+    bottom: -0.5rem;
+    background-color: rgb(35,35,35);
+}
+.line2{
+    width: 100%;
+    height: 0.5rem;
+    /* position: absolute; */
+    /* bottom: -0.5rem; */
+    background-color: rgb(35,35,35);
+}
+.secconto {
+    min-height: auto;
+    padding: 4.5rem 0;
+    background: black;
+    color: white;
+}
+.seccontoinner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.conte {
+    width: 50vw;
+    padding: 0px 0px 0px 100px;
+    line-height: 3rem;
+}
+.conte h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.conte p {
+    width:35vw;
+    font-size: 1.3rem;
+}
+.tv {
+    position: relative;
+}
+.vd {
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    /* -webkit-transform: translate(-50%, -50%); */
+    /* -moz-transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+}
+vedio {
+    display: inline-block;
+    vertical-align: baseline;
+}
+.tconto {
+    min-height: auto;
+    padding: 4.5rem 0;
+    color: white;
+    background: black;
+}
+.tsconto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: black;
+}
+.bo {
+    border: 2px solid wheat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.im {
+    position: relative;
+}
+.bo {
+    border: 1px solid #d7d4d4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 55%;
+    z-index: 1;
+    position: absolute;
+    bottom: 6%;
+    left: 22%;
+    background: black;
+    padding: 10px;
+}
+.sm {
+    margin: 0 -6rem 0 0;
+}
+img.si {
+    width: 40%;
+}
+img.loa {
+    width: 60%;
+}
+p.t {
+    font-size: 20px;
+}
+p.d {
+    color: blue;
+}
+.ima {
+    margin-right: -4rem;
+}
+.te {
+    width: 40%;
+}
+h2.th {
+    font-size: 3.3rem;
+}
+p.tp {
+    font-size: 1.5rem;
+}
+.fcon {
+    min-height: auto;
+    padding: 4.5rem 0;
+    color: white;
+    background: black;
+}
+.fin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2.fh {
+    font-size: 3rem;
+}
+.fco{
+    width: 30%;
+}
+p.fp {
+    font-size: 1.4rem;
+}
+.fco2 {
+    position: relative;
+}
+.fvd {
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 63%;
+    max-height: 47%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    /* -webkit-transform: translate(-50%, -50%); */
+    /* -moz-transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+}
+
+.scon {
+    min-height: auto;
+    padding: 4.5rem 0;
+    color: white;
+    background: black;
+}
+.sin {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    max-width: 70vw;
+    margin: auto;
+    align-items: flex-start;
+}
+.sin h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+button.accordion {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: inherit;
+    background: rgb(45,45,45);
+    color: white;
+    border: none;
+    margin-bottom: 2px;
+    transition: 1s;;
+}
+.active, .accordion:hover {
+    background-color:  rgb(80, 78, 78);
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 6px;
+}
+.active:after {
+    content: "\2212";
+}
+.panel {
+    font-size: 20px;
+    padding: 0 18px;
+    background: rgb(45,45,45);
+    margin-bottom: 2px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+.fot {
+    min-height: auto;
+    padding: 4.5rem 0;
+    color: #bbb0b0;
+    background: black;
+}
+.fi {
+    max-width: 70vw;
+    margin: auto;
+}
+.hea {
+    font-size: 1.1rem;
+}
+.gri {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5vh;
+}
+.col1 {
+    list-style: none;
+}
+.la {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.ne {
+    font-size: 1.3rem;
+}
+li {
+    margin-bottom: 2.5vh;
+    list-style: none;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+/* index2 */
+.navbar {
+    /* display: flex; */
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    background: aliceblue;
+    /* align-items: center; */
+}
+a.li {
+    margin-left: 5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+.search{
+    float: right;
+    padding: 10px;
+}
+.b{
+    min-height: auto;
+    overflow-x: hidden;
+    background: black;
+}
+.container1 {
+    min-height: 85vh;
+    max-width: 86vw;
+    /* border: 1px solid white; */
+    box-shadow: 2px 3px 4px rgb(177, 176, 176);
+    /* background: black; */
+    margin: auto;
+    transform: translateY(7%);
+    border-radius: 20px;
+    background-image: url("https://4kwallpapers.com/images/wallpapers/mortal-kombat-2021-movies-poster-4096x1895-4902.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation :change 10s infinite ease-in-out;
+}
+@keyframes change{
+    0%{
+        background-image: url("https://4kwallpapers.com/images/wallpapers/mortal-kombat-2021-movies-poster-4096x1895-4902.jpg");
+    }
+    20%{
+        background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/10/robin-hood-movie-4k-poster_1540747640.jpg");
+    }
+    40%{
+        background-image: url("https://images.hdqwalls.com/download/robin-hood-movie-10k-rq-7680x4320.jpg");
+    }
+    60%{
+        background-image: url("https://www.itl.cat/pngfile/big/111-1111926_previous-wallpaper-robin-hood-a-origem-gif.jpg");
+    }
+    80%{
+        background-image: url("https://wallpaper.dog/large/10915262.jpg");
+    }
+    100%{
+        background-image: url("https://wallpaper.dog/large/5445878.jpg");
+    }
+}
+.navbar {
+    /* display: flex; */
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 86vw;
+    margin: auto;
+    padding: 10px;
+    background: transparent;
+    /* align-items: center; */
+}
+.details {
+    z-index: 1;
+    position: relative;
+    color: white;
+    top: -20vh;
+    width: 100vw;
+    overflow: hidden;
+}
+h3 {
+    font-size: 3rem;
+    margin-left: 10rem;
+}
+.row {
+    max-height: 70vh;
+    /* padding: 40px 0px 40px 0px;  */
+    display: flex;
+    width: 92vw;
+    margin: auto;
+   overflow-x: auto;
+}
+.row::-webkit-scrollbar{
+    width: 0;
+}
+.card {
+    min-width: 15vw;
+   box-shadow: 2px 3px 4px rgba(144 144 144);
+    margin-left: 10px;
+    height: 250px;
+    border-radius: 10px;
+    /* background-color: antiquewhite; */
+}
+.cards:hover{
+
+}
+.card:nth-child(1){
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.imgur.com/H6hByTW.gif");
+}
+.card:nth-child(2){
+    background-size: cover;
+    background-position: center;
+    background-image: url("http://i.imgur.com/kDC3l6l.gif");
+}
+.card:nth-child(3){
+    background-size: cover;
+    background-position: center;
+    background-image: url("http://imgur.com/qZEb3qD.gif");
+}
+.card:nth-child(4){
+    background-size: cover;
+    background-position: center;
+    background-image: url("http://imgur.com/md6t6Cz.gif");
+}
+.card:nth-child(5){
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.imgur.com/SIU1VMf.gif");
+}
+.card:nth-child(6){
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://www.ignant.com/wp-content/uploads/2014/05/animated_movie_posters_05.gif");
+}
+.card:nth-child(7){
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.imgur.com/H6hByTW.gif");
+}
+.card:nth-child(8){
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.imgur.com/H6hByTW.gif");
+}
+.card:nth-child(9){
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.imgur.com/H6hByTW.gif");
+}
+.card:nth-child(10){
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://i.imgur.com/H6hByTW.gif");
+}
+.search {
+    position: relative;
+    /* float: right; */
+    /* padding: 10px; */
+    z-index: 1;
+    top: -15vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    left:-10vw;
+}
+input[type="search"] {
+    width: 100%;
+    height: 7vh;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(41, 39, 39);
+    color: white;
+    font-size: 1rem;
+}
+i.fa.fa-search {
+    color: white;
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.contai {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    /* min-width: 54vw; */
+    /* max-width: 80vw; */
+    width: 83vw;
+    margin: auto;
+}
+.movi {
+    box-shadow: 4px 5px 4px rgb(34, 33, 33);
+    position :relative;
+}
+img {
+    width: 100%;
+}
+
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .inside {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    bottom: 25vh;
+    left: 2vw;
+    line-height: 2.3rem;
+    display: block;
+    font-size: 1.3rem;
+}
+button {
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+p.time {
+    font-size: 1rem;
+}
+.over {
+    /* border: 2px solid white; */
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 15vh;
+    right: 0;
+    padding: 0;
+    background-color: black;
+    opacity: 0.4;
+    transition: .5s ease;
+    overflow: hidden;
+    width:0;
+    z-index: 1;
+}
+
+  
+  .movi:hover .over {
+    width:auto;
+    right: 2vw;
+    /* padding: 29px; */
+  }
+
+
+p.m {
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 5px solid  rgb(48, 45, 45);
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+}
+div#myBtnContainer {
+    display: flex;
+    width: 80vw;
+    margin-top: -10vh;
+    margin: auto;
+    /* margin-top: -36px; */
+    margin-bottom: 2vh;
+    /* padding: 10px; */
+  
+}
+button.btn {
+    padding: 20px 60px;
+    background: white;
+    color: black;
+    border: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-top: -10vh;
+    margin-bottom: 2vh;
+}
+.btn.active, .btn:hover {
+    background-color: rgb(80, 78, 78);
+}
+
+@media screen and (max-width:412px){
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+        /* font-family: 'Courier New', Courier, monospace; */
+    }
+    .container {
+        /* min-height: auto; */
+    }
+    .containerf {
+        min-height: auto;
+  
+    }
+    .header {
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+    a.logo {
+        color: red;
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+  
+    .content {
+        
+        /* margin: auto; */
+        max-width: 90vw;
+        text-align: center;
+        position:initial;
+        top: 33vh;
+        color: white;
+        line-height: 30px;
+        padding-top: 30px;
+    }
+    h3.ho {
+        font-size: 30px;
+        font-weight: bolder;
+        font-family: auto;
+    }
+    p.po,p.pt {
+        font-size: 1.5rem;
+        word-spacing: 0.2rem;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    input.ea {
+        height: 40px;
+        width: 80vw;
+        border-radius: 10px;
+        background: transparent;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 20px;
+        border: 2px solid white;
+    }
+    h3{
+        margin-left: 0;
+    }
+    .ea::placeholder{
+        color: rgb(146, 142, 142);
+        font-size: 16px;
+    }
+    .ea:focus{
+        border:2px solid forestgreen;
+        outline: none;
+    }
+    .ea:blank {
+        border: 3px solid red;
+      }
+    
+    button.gets {
+        background: red;
+        padding: 14px 20px 13px;
+        font-size: 17px;
+        border: none;
+        outline: none;
+        color: wheat;
+        border-radius: 10px;
+        font-weight: 800;
+    }
+    .line {
+       
+    width: 100%;
+       
+    height: 0.5rem;
+       
+    position: absolute;
+       
+    bottom: 30.5rem;
+       
+    background-color: rgb(107 103 103);
+       
+    z-index: 999;
+    }
+    .line2{
+        width: 100%;
+        height: 0.5rem;
+        /* position: absolute; */
+        /* bottom: -0.5rem; */
+        background-color: rgb(35,35,35);
+    }
+    .secconto {
+        min-height: auto;
+        padding: 4.5rem 0;
+        background: black;
+        color: white;
+    }
+    .seccontoinner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .conte {
+        width: auto;
+        padding: 0px 20px 0px 69px;
+        line-height: 3rem;
+    }
+    .conte h2 {
+        font-size: 2.4rem;
+        font-weight: bolder;
+    }
+    .conte p {
+        width:auto;
+        font-size: 1.3rem;
+    }
+    .tv {
+        position: relative;
+    }
+    .vd {
+        z-index: 1;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        max-width: 73%;
+        max-height: 54%;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        /* -webkit-transform: translate(-50%, -50%); */
+        /* -moz-transform: translate(-50%, -50%); */
+        /* -ms-transform: translate(-50%, -50%); */
+        transform: translate(-50%, -50%);
+    }
+    vedio {
+        display: inline-block;
+        vertical-align: baseline;
+    }
+    .tconto {
+        min-height: auto;
+        padding: 4.5rem 0;
+        color: white;
+        background: black;
+    }
+    .tsconto {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        background: black;
+    }
+    .bo {
+        border: 2px solid wheat;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .im {
+        position: relative;
+    }
+    .bo {
+        border: 1px solid #d7d4d4;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+        z-index: 1;
+        position: absolute;
+        bottom: 6%;
+        left: 14%;
+        background: black;
+        padding: 2px;
+    }
+    .sm {
+        margin: 0 -6rem 0 0;
+    }
+    img.si {
+        width: 40%;
+    }
+    img.loa {
+        width: 60%;
+    }
+    p.t {
+        font-size: 20px;
+    }
+    p.d {
+        color: blue;
+    }
+    .ima {
+        margin-right: -2.4rem;
+    }
+    .te {
+      
+         width: auto;
+    }
+    h2.th {
+        margin-left: 13vw;
+        margin-right: 5vw;
+        font-size: 2.1rem;
+    }
+    p.tp {
+        font-size: 1rem;
+        margin-left: 13vw;
+        margin-right: 5vw;
+        margin-top: 2vw;
+    }
+    .fcon {
+        min-height: auto;
+        padding: 4.5rem 2rem;
+        color: white;
+        background: black;
+    }
+    .fin {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2.fh {
+        font-size: 2.3rem;
+        margin-bottom: 10px;
+    }
+    .fco{
+        width: auto;
+        text-align: center;
+    }
+    p.fp {
+        font-size: 1.2rem;
+    }
+    .fco2 {
+        position: relative;
+    }
+    .fvd {
+        z-index: 1;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        max-width: 63%;
+        max-height: 47%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        /* -webkit-transform: translate(-50%, -50%); */
+        /* -moz-transform: translate(-50%, -50%); */
+        /* -ms-transform: translate(-50%, -50%); */
+        transform: translate(-50%, -50%);
+    }
+    
+    .scon {
+        min-height: auto;
+        padding: 4.5rem 2rem;
+        color: white;
+        background: black;
+    }
+    .sin {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        max-width: 83vw;
+        margin: auto;
+        align-items: flex-start;
+    }
+    .sin h2 {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    button.accordion {
+        width: 100%;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: inherit;
+        background: rgb(45,45,45);
+        color: white;
+        border: none;
+        margin-bottom: 2px;
+        transition: 1s;;
+    }
+    .active, .accordion:hover {
+        background-color:  rgb(80, 78, 78);
+    }
+    
+    .accordion:after {
+        content: '\002B';
+        color: #777;
+        font-weight: bold;
+        float: right;
+        margin-left: 6px;
+    }
+    .active:after {
+        content: "\2212";
+    }
+    .panel {
+        font-size: 20px;
+        padding: 0 18px;
+        background: rgb(45,45,45);
+        margin-bottom: 2px;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.2s ease-out;
+    }
+    .fot {
+        min-height: auto;
+        padding: 4.5rem 0;
+        color: #bbb0b0;
+        background: black;
+    }
+    .fi {
+        max-width: 83vw;
+        margin: auto;
+    }
+    .hea {
+        font-size: 1.1rem;
+    }
+    .gri {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-top: 5vh;
+    }
+    .col1 {
+        list-style: none;
+    }
+    .la {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .ne {
+        font-size: 1.3rem;
+    }
+    li {
+        margin-bottom: 2.5vh;
+        list-style: none;
+        font-size: 0.8rem;
+        text-decoration: underline;
+    }
+    
+    /* index2 */
+    .navbar {
+        /* display: flex; */
+        width: 90vw;
+        margin: auto;
+        padding: 10px;
+        background: aliceblue;
+        /* align-items: center; */
+    }
+    a.li {
+        margin-left: 5rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: white;
+    }
+    .search{
+        float: right;
+        padding: 10px;
+    }
+    .b{
+        min-height: auto;
+        overflow-x: hidden;
+        background: black;
+    }
+    .container1 {
+        min-height: 85vh;
+        max-width: 86vw;
+        /* border: 1px solid white; */
+        box-shadow: 2px 3px 4px rgb(177, 176, 176);
+        /* background: black; */
+        margin: auto;
+        transform: translateY(7%);
+        border-radius: 20px;
+        background-image: url("https://4kwallpapers.com/images/wallpapers/mortal-kombat-2021-movies-poster-4096x1895-4902.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        animation :change 10s infinite ease-in-out;
+    }
+    @keyframes change{
+        0%{
+            background-image: url("https://4kwallpapers.com/images/wallpapers/mortal-kombat-2021-movies-poster-4096x1895-4902.jpg");
+        }
+        20%{
+            background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/10/robin-hood-movie-4k-poster_1540747640.jpg");
+        }
+        40%{
+            background-image: url("https://images.hdqwalls.com/download/robin-hood-movie-10k-rq-7680x4320.jpg");
+        }
+        60%{
+            background-image: url("https://www.itl.cat/pngfile/big/111-1111926_previous-wallpaper-robin-hood-a-origem-gif.jpg");
+        }
+        80%{
+            background-image: url("https://wallpaper.dog/large/10915262.jpg");
+        }
+        100%{
+            background-image: url("https://wallpaper.dog/large/5445878.jpg");
+        }
+    }
+    .navbar {
+        /* display: flex; */
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        width: 86vw;
+        margin: auto;
+        padding: 10px;
+        background: transparent;
+        /* align-items: center; */
+    }
+    .details {
+        z-index: 1;
+        position: relative;
+        color: white;
+        top: -20vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+    h3 {
+        font-size: 3rem;
+        /* margin-left: 10rem; */
+    }
+    .row {
+        max-height: 70vh;
+        /* padding: 40px 0px 40px 0px;  */
+        display: flex;
+        width: 92vw;
+        margin: auto;
+       overflow-x: auto;
+    }
+    .row::-webkit-scrollbar{
+        width: 0;
+    }
+    .card {
+        min-width: 15vw;
+       box-shadow: 2px 3px 4px rgba(144 144 144);
+        margin-left: 10px;
+        height: 250px;
+        border-radius: 10px;
+        /* background-color: antiquewhite; */
+    }
+    .cards:hover{
+    
+    }
+    .card:nth-child(1){
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://i.imgur.com/H6hByTW.gif");
+    }
+    .card:nth-child(2){
+        background-size: cover;
+        background-position: center;
+        background-image: url("http://i.imgur.com/kDC3l6l.gif");
+    }
+    .card:nth-child(3){
+        background-size: cover;
+        background-position: center;
+        background-image: url("http://imgur.com/qZEb3qD.gif");
+    }
+    .card:nth-child(4){
+        background-size: cover;
+        background-position: center;
+        background-image: url("http://imgur.com/md6t6Cz.gif");
+    }
+    .card:nth-child(5){
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://i.imgur.com/SIU1VMf.gif");
+    }
+    .card:nth-child(6){
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://www.ignant.com/wp-content/uploads/2014/05/animated_movie_posters_05.gif");
+    }
+    .card:nth-child(7){
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://i.imgur.com/H6hByTW.gif");
+    }
+    .card:nth-child(8){
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://i.imgur.com/H6hByTW.gif");
+    }
+    .card:nth-child(9){
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://i.imgur.com/H6hByTW.gif");
+    }
+    .card:nth-child(10){
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://i.imgur.com/H6hByTW.gif");
+    }
+    .search {
+        position: relative;
+        /* float: right; */
+        /* padding: 10px; */
+        z-index: 1;
+        top: -15vh;
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        left:-10vw;
+    }
+    input[type="search"] {
+        width: 100%;
+        height: 7vh;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgb(41, 39, 39);
+        color: white;
+        font-size: 1rem;
+    }
+    i.fa.fa-search {
+        color: white;
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+    .contai {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(4,1fr);
+        /* min-width: 54vw; */
+        /* max-width: 80vw; */
+        width: 83vw;
+        margin: auto;
+    }
+    .movi {
+        box-shadow: 4px 5px 4px rgb(34, 33, 33);
+        position :relative;
+    }
+    img {
+        width: 100%;
+    }
+    
+      
+      .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .inside {
+        position: absolute;
+        color: white;
+        z-index: 1;
+        bottom: 25vh;
+        left: 2vw;
+        line-height: 2.3rem;
+        display: block;
+        font-size: 1.3rem;
+    }
+    button {
+        padding: 10px 20px;
+        background: red;
+        color: white;
+        border: none;
+        font-weight: 600;
+    }
+    p.time {
+        font-size: 1rem;
+    }
+    .over {
+        /* border: 2px solid white; */
+        color: white;
+        display: block;
+        position: absolute;
+        bottom: 15vh;
+        right: 0;
+        padding: 0;
+        background-color: black;
+        opacity: 0.4;
+        transition: .5s ease;
+        overflow: hidden;
+        width:0;
+        z-index: 1;
+    }
+    
+      
+      .movi:hover .over {
+        width:auto;
+        right: 2vw;
+        /* padding: 29px; */
+      }
+    
+    
+    p.m {
+        margin-bottom: 40px;
+        padding: 10px;
+        border: 5px solid  rgb(48, 45, 45);
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+    }
+    div#myBtnContainer {
+        display: flex;
+        width: 80vw;
+        margin-top: -10vh;
+        margin: auto;
+        /* margin-top: -36px; */
+        margin-bottom: 2vh;
+        /* padding: 10px; */
+      
+    }
+    button.btn {
+        padding: 20px 60px;
+        background: white;
+        color: black;
+        border: none;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-top: -10vh;
+        margin-bottom: 2vh;
+    }
+    .btn.active, .btn:hover {
+        background-color: rgb(80, 78, 78);
+    }
+   
+    .g {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        margin: auto;
+        align-items: center;
+        padding-top: 20px;
+    }
+    
+    a {
+        color: white;
+    }
+}

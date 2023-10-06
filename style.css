@@ -720,6 +720,9 @@ button.btn {
         border-radius: 10px;
         font-weight: 800;
     }
+    a{
+        color: white;
+    }
     .line {
        
     width: 100%;

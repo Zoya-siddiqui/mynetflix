@@ -675,12 +675,12 @@ button.btn {
         padding-top: 30px;
     }
     h3.ho {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bolder;
         font-family: auto;
     }
     p.po,p.pt {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         word-spacing: 0.2rem;
         font-weight: 500;
         margin-bottom: 10px;
@@ -722,6 +722,7 @@ button.btn {
     }
     a{
         color: white;
+        text-decoration: none;
     }
     .line {
        
@@ -762,12 +763,12 @@ button.btn {
         line-height: 3rem;
     }
     .conte h2 {
-        font-size: 2.4rem;
+        font-size: 2.1rem;
         font-weight: bolder;
     }
     .conte p {
         width:auto;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .tv {
         position: relative;
@@ -832,13 +833,13 @@ button.btn {
         margin: 0 -6rem 0 0;
     }
     img.si {
-        width: 40%;
+        width: 36%;
     }
     img.loa {
-        width: 60%;
+        width: 50%;
     }
     p.t {
-        font-size: 20px;
+        font-size: 16px;
     }
     p.d {
         color: blue;
@@ -853,7 +854,7 @@ button.btn {
     h2.th {
         margin-left: 13vw;
         margin-right: 5vw;
-        font-size: 2.1rem;
+        font-size: 2rem;
     }
     p.tp {
         font-size: 1rem;
@@ -1002,10 +1003,13 @@ button.btn {
         /* align-items: center; */
     }
     a.li {
-        margin-left: 5rem;
+        margin-left: 1rem;
         text-decoration: none;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: white;
+    }
+    a.logo{
+        font-size: 1rem;
     }
     .search{
         float: right;
@@ -1017,7 +1021,7 @@ button.btn {
         background: black;
     }
     .container1 {
-        min-height: 85vh;
+        min-height: 50vh;
         max-width: 86vw;
         /* border: 1px solid white; */
         box-shadow: 2px 3px 4px rgb(177, 176, 176);
@@ -1070,8 +1074,10 @@ button.btn {
         overflow: hidden;
     }
     h3 {
-        font-size: 3rem;
-        /* margin-left: 10rem; */
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        font-family: emoji;
+    }
     }
     .row {
         max-height: 70vh;
@@ -1085,10 +1091,10 @@ button.btn {
         width: 0;
     }
     .card {
-        min-width: 15vw;
+        min-width: 30vw;
        box-shadow: 2px 3px 4px rgba(144 144 144);
         margin-left: 10px;
-        height: 250px;
+        height: 200px;
         border-radius: 10px;
         /* background-color: antiquewhite; */
     }
@@ -1150,16 +1156,17 @@ button.btn {
         /* float: right; */
         /* padding: 10px; */
         z-index: 1;
-        top: -15vh;
+        top: -14vh;
         width: 80vw;
         display: flex;
         align-items: center;
         margin: auto;
-        left:-10vw;
+        left:-9vw;
+        margin-bottom: -30vh;
     }
     input[type="search"] {
         width: 100%;
-        height: 7vh;
+        height: 3.3vh;
         border: none;
         border-radius: 10px;
         padding: 10px;
@@ -1169,16 +1176,16 @@ button.btn {
     }
     i.fa.fa-search {
         color: white;
-        font-size: 2rem;
+        font-size: 1rem;
         margin-left: 2rem;
     }
     .contai {
         display: grid;
         gap: 20px;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(1,1fr);
         /* min-width: 54vw; */
         /* max-width: 80vw; */
-        width: 83vw;
+        width: 70vw;
         margin: auto;
     }
     .movi {

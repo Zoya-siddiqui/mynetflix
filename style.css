@@ -1003,9 +1003,9 @@ button.btn {
         /* align-items: center; */
     }
     a.li {
-        margin-left: 1rem;
+        margin-left: 18px;
         text-decoration: none;
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: white;
     }
     a.logo{
